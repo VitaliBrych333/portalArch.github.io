@@ -1,7 +1,7 @@
 function load() {
   let myInterface;
 
-  fetch('../JSON/interfaceTranslate.json')
+  fetch('./JSON/interfaceTranslate.json')
     .then(response => response.json())
     .then((myJson) => {
       myInterface = myJson;
