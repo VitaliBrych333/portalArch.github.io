@@ -87,15 +87,9 @@ nav li:hover a,
 }
 
 .custom_select {
-<<<<<<< HEAD
   width: 20%;
   margin-left: 10px;
   /* min-width: 120px; */
-=======
-    width: 20%;
-    margin-left: 10px;
-    min-width: 120px;
->>>>>>> 34deb01fa1792fe644722978048e7dd26907929b
 }
 
 .custom_select select {
@@ -125,17 +119,10 @@ nav li:hover a,
 }
 
 .search_container p {
-<<<<<<< HEAD
   font-size: 45px;
   color: aliceblue;
   padding-top: 20px;
   padding-left: 10px; 
-=======
-    font-size: 45px;
-    color: aliceblue;
-    padding-top: 20px;
-    padding-left: 10px;
->>>>>>> 34deb01fa1792fe644722978048e7dd26907929b
 }
 
 .search_form {
@@ -278,14 +265,9 @@ nav li:hover a,
 }
 
 .list_info p {
-<<<<<<< HEAD
   color: black;
   font-size: 17px;
   font-family: HelveticaLight, sans-serif;
-=======
-    font-size: 17px;
-    font-family: HelveticaLight, sans-serif;
->>>>>>> 34deb01fa1792fe644722978048e7dd26907929b
 }
 
 p.place_of_birth {
@@ -355,7 +337,6 @@ a:nth-child(6) .photo {
 
 
 @media screen and (max-width: 717px) {
-<<<<<<< HEAD
   .search_container {    
     margin-top: 0;
   }
@@ -368,12 +349,6 @@ a:nth-child(6) .photo {
   .search_form {
     padding-right: 40px;
   }
-=======
-    .search_container p {
-        padding-top: 30px;
-        font-size: 25px;
-    }
->>>>>>> 34deb01fa1792fe644722978048e7dd26907929b
 
     .search_form {
         padding-right: 40px;
@@ -396,7 +371,6 @@ a:nth-child(6) .photo {
     }
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 510px) {
   main {
     margin-top: 30px;
@@ -407,12 +381,6 @@ a:nth-child(6) .photo {
     padding: 0px;
     height: 20px;
   }
-=======
-@media screen and (max-width: 670px) {
-    body {
-        width: 110%;
-    }
->>>>>>> 34deb01fa1792fe644722978048e7dd26907929b
 
     header {
         height: 200px;
@@ -558,7 +526,6 @@ a:nth-child(6) .photo {
     }
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 360px) {
   main {
     padding-top: 20px;
@@ -573,13 +540,6 @@ a:nth-child(6) .photo {
   main {
     padding-top: 20px;
   } 
-=======
-@media screen and (max-width: 390px) {
-    body {
-        width: 160%;
-    }
-}
->>>>>>> 34deb01fa1792fe644722978048e7dd26907929b
 
 @media screen and (max-width: 375px) {
     body {
