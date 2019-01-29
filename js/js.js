@@ -1,6 +1,6 @@
 const IdAuthor = document.querySelector('.wrapper').getAttribute('data-list');
 
-fetch('../json/content.json')
+fetch('../JSON/content.json')
   .then(response => response.json())
   .then((res) => {
     init(res);
