@@ -87,9 +87,9 @@ nav li:hover a,
 }
 
 .custom_select {
-  width: 20%;
-  margin-left: 10px;
-  /* min-width: 120px; */
+    width: 20%;
+    margin-left: 10px;
+    min-width: 120px;
 }
 
 .custom_select select {
@@ -119,10 +119,10 @@ nav li:hover a,
 }
 
 .search_container p {
-  font-size: 45px;
-  color: aliceblue;
-  padding-top: 20px;
-  padding-left: 10px; 
+    font-size: 45px;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 .search_form {
@@ -265,9 +265,8 @@ nav li:hover a,
 }
 
 .list_info p {
-  color: black;
-  font-size: 17px;
-  font-family: HelveticaLight, sans-serif;
+    font-size: 17px;
+    font-family: HelveticaLight, sans-serif;
 }
 
 p.place_of_birth {
@@ -329,26 +328,11 @@ a:nth-child(6) .photo {
     background-image: url('../img/person6.jpg');
 }
 
-@media screen and (max-width: 814px) {
-  .search_container {    
-    margin-top: 56px;
-  }
-}
-
-
 @media screen and (max-width: 717px) {
-  .search_container {    
-    margin-top: 0;
-  }
-
-  .search_container p {
-    padding-top: 30px;
-    font-size: 25px;
-  }
-
-  .search_form {
-    padding-right: 40px;
-  }
+    .search_container p {
+        padding-top: 30px;
+        font-size: 25px;
+    }
 
     .search_form {
         padding-right: 40px;
@@ -371,16 +355,10 @@ a:nth-child(6) .photo {
     }
 }
 
-@media screen and (max-width: 510px) {
-  main {
-    margin-top: 30px;
-  }
-
-  .custom_select select {
-    font-size: 10px;
-    padding: 0px;
-    height: 20px;
-  }
+@media screen and (max-width: 670px) {
+    body {
+        width: 110%;
+    }
 
     header {
         height: 200px;
@@ -526,20 +504,11 @@ a:nth-child(6) .photo {
     }
 }
 
-@media screen and (max-width: 360px) {
-  main {
-    padding-top: 20px;
-  }
-
-  .list {
-    width: 87%;
-  }
+@media screen and (max-width: 390px) {
+    body {
+        width: 160%;
+    }
 }
-
-@media screen and (max-width: 340px) {
-  main {
-    padding-top: 20px;
-  } 
 
 @media screen and (max-width: 375px) {
     body {

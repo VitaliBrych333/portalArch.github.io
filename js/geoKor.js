@@ -10,5 +10,3 @@ L.marker([53.8964, 27.5514]).addTo(mymap)
 
 L.marker([53.90865, 27.57509]).addTo(mymap)
   .bindPopup('<b>Монумент Победы</b>');
-
-// mymap.on('click', onMapClick);

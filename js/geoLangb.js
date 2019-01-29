@@ -16,5 +16,3 @@ L.marker([53.920718, 27.597849]).addTo(mymap)
 
 L.marker([53.896, 27.545]).addTo(mymap)
   .bindPopup('<b>Дом правительства</b>');
-
-// mymap.on('click', onMapClick);

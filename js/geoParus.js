@@ -13,5 +13,3 @@ L.marker([53.900141, 27.558957]).addTo(mymap)
 
 L.marker([53.895029, 27.559889]).addTo(mymap)
   .bindPopup('<b>Спортивный комплекс &#171Динамо&#187 </b>');
-
-// mymap.on('click', onMapClick);

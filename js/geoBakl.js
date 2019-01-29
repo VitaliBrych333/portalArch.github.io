@@ -19,5 +19,3 @@ L.marker([53.901361, 27.553987]).addTo(mymap)
 
 L.marker([53.927309, 27.622319]).addTo(mymap)
   .bindPopup('<b>Белорусский государственный аграрный технический университет</b>');
-
-// mymap.on('click', onMapClick);

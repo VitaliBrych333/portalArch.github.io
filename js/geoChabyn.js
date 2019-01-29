@@ -19,5 +19,3 @@ L.marker([52.428248, 31.013175]).addTo(mymap)
 
 L.marker([52.430181, 30.996197]).addTo(mymap)
   .bindPopup('<b>Дом-коммуна по пр. Ленина</b>');
-
-// mymap.on('click', onMapClick);

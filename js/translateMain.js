@@ -1,7 +1,7 @@
 function load() {
   let myInterface;
 
-  fetch('./JSON/interfaceTranslate.json')
+  fetch('../JSON/interfaceTranslate.json')
     .then(response => response.json())
     .then((myJson) => {
       myInterface = myJson;
@@ -24,7 +24,6 @@ function load() {
   }
 
   function moveNav(e) {
-    // event.preventDefault();
     document.querySelector('.active').classList.remove('active');
     e.target.parentNode.classList.add('active');
   }

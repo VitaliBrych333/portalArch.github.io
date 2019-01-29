@@ -20,6 +20,3 @@ L.marker([53.905890, 27.553958]).addTo(mymap)
   .bindPopup('<b>ст.м.Немига</b>');
 L.marker([53.894777, 27.548228]).addTo(mymap)
   .bindPopup('<b>ст.м.Площадь Ленина</b>');
-
-
-// mymap.on('click', onMapClick);
